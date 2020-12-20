@@ -1,0 +1,31 @@
+.menu-header {
+  position: fixed;
+  width: 100%;
+  top: 26px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.menu-header__title {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.menu-header__btn-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-header__btn {
+  margin-left: 25px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.top-reserved-area {
+  display: block;
+  height: 106px;
+}

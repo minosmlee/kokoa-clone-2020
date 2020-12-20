@@ -1,0 +1,73 @@
+.friends-main {
+  padding: 0px 25px;
+}
+
+.user,
+.user__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.user__column:last-child * {
+  margin-left: 5px;
+}
+
+.user__photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.photo--lg {
+  width: 80px;
+  height: 80px;
+}
+
+.photo--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user__name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user__statement {
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid lightgray;
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.channel-header__title {
+  font-size: 14px;
+}
+
+.channel-header i {
+  color: lightgrey;
+}
+
+.text--not-bold {
+  font-weight: 400;
+}

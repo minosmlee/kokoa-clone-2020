@@ -1,0 +1,13 @@
+#friends-names-display {
+  display: block;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 10px 0px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#friends-names-display i {
+  margin: 0px 5px;
+  color: darkgray;
+}
