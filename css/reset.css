@@ -132,15 +132,3 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-.font-dark {
-  color: rgba(0, 0, 0, 0.8);
-}
-
-.font-light {
-  color: darkgrey;
-}
-
-.font-lightx2 {
-  color: lightgray;
-}

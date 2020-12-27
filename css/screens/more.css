@@ -1,0 +1,9 @@
+.suggestions {
+  border-top: var(--screen-main-border);
+  padding-top: 30px;
+}
+
+.suggestions__title {
+  font-size: 16px;
+  padding-bottom: 10px;
+}

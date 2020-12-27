@@ -1,4 +1,4 @@
-.friends-main {
+.screen-main {
   padding: 0px 25px;
 }
 
@@ -13,26 +13,19 @@
   justify-content: space-between;
 }
 
+.user__column:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 .user__column:last-child * {
   margin-left: 5px;
 }
 
 .user__photo {
-  width: 70px;
-  height: 70px;
-  border-radius: 30px;
   margin-right: 20px;
-}
-
-.photo--lg {
-  width: 80px;
-  height: 80px;
-}
-
-.photo--sm {
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
 }
 
 .user__text {
@@ -51,23 +44,18 @@
   font-size: 15px;
 }
 
-.channel-header {
+.user__statement i {
+  color: tomato;
+  margin-left: 5px;
+}
+
+.user__chat__time {
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+.user__chat__noti {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  border-top: 1px solid lightgray;
-  padding: 10px 0px;
-  margin: 10px 0px;
-}
-
-.channel-header__title {
-  font-size: 14px;
-}
-
-.channel-header i {
-  color: lightgrey;
-}
-
-.text--not-bold {
-  font-weight: 400;
 }

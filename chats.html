@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kokora Talk - Friends</title>
+    <title>Kokora Talk - Chats</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,10 +23,13 @@
     </div>
 
     <header class="menu-header">
-      <h1 class="menu-header__title font--black">Friends</h1>
+      <h1 class="menu-header__title font--black">Chats</h1>
       <div class="menu-header__btn-list">
         <a class="menu-header__btn" href="#"
           ><i class="fas fa-search fa-lg"></i>
+        </a>
+        <a class="menu-header__btn" href="#"
+          ><i class="fas fa-comment-medical fa-lg"></i>
         </a>
         <a class="menu-header__btn" href="#"
           ><i class="fas fa-music fa-lg"></i
@@ -39,70 +42,55 @@
 
     <div class="top-reserved-area"></div>
 
-    <a id="friends-names-display">
-      <i class="fas fa-info-circle"></i>
-      Friends' Names Display
-      <i class="fas fa-angle-right"></i>
-    </a>
-
     <div class="screen-main">
       <div class="user">
         <div class="user__column">
-          <img class="user__photo photo--lg" src="images/myphoto.jpeg" />
-          <div class="user__text font--black">
-            <h4 class="user__name font--bold">Sungmin Lee</h4>
+          <img
+            class="user__photo photo--md"
+            src="images/kakaotalk.png"
+            alt=""
+          />
+          <div class="user__text">
+            <h4 class="user__name font--black">KokoaTalk</h4>
             <h6 class="user__statement font--dark">
-              Hello! I am Sungmin Lee from South Korea!
+              Please check My Kokoa Account Info
             </h6>
           </div>
         </div>
-        <div class="user__column"></div>
-      </div>
-
-      <div class="channel-header">
-        <span class="channel-header__title font--light">Channel</span>
-        <i class="fas fa-angle-up"></i>
-      </div>
-
-      <div class="user">
-        <div class="user__column">
-          <img class="user__photo photo--sm" src="images/kakaotalk.png" />
-          <div class="user__text font--normal">
-            <h4 class="user__name">Channel</h4>
-          </div>
-        </div>
-        <div>
-          <div class="user__column font--light">
-            <div><span>2</span> <i class="fas fa-angle-right"></i></div>
-          </div>
+        <div class="user__column font--light">
+          <span class="user__chat__time">21:22</span>
+          <span class="user__chat__noti noti--num font--bold">1</span>
         </div>
       </div>
     </div>
 
     <div class="bottom-reserved-area"></div>
+
     <nav class="menu-nav">
       <ul class="menu-nav__list">
         <li class="menu-nav__btn-area">
-          <a class="menu-nav__btn" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
-          </a>
+          <a class="menu-nav__btn" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+          <!--  <i class="far fa-user"></i>-->
         </li>
         <li class="menu-nav__btn-area">
-          <a class="menu-nav__btn" href="chats.html">
-            <span class="menu-nav__chat__noti noti--num">1</span>
-            <i class="far fa-comment fa-2x"></i>
-          </a>
+          <a class="menu-nav__btn" href="chats.html"
+            ><span class="menu-nav__chat__noti noti--num">1</span
+            ><i class="fas fa-comment fa-2x"></i
+          ></a>
+          <!-- <i class="fas fa-comment"></i> -->
         </li>
         <li class="menu-nav__btn-area">
-          <a class="menu-nav__btn" href="find.html">
-            <i class="fas fa-search fa-2x"></i>
-          </a>
+          <a class="menu-nav__btn" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
         </li>
         <li class="menu-nav__btn-area">
-          <a class="menu-nav__btn" href="more.html">
-            <span class="menu-nav__more__noti noti--dot"></span>
-            <i class="fas fa-ellipsis-h fa-2x"></i>
-          </a>
+          <a class="menu-nav__btn" href="more.html"
+            ><span class="menu-nav__more__noti noti--dot"></span
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
         </li>
       </ul>
     </nav>

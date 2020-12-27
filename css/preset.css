@@ -1,0 +1,76 @@
+.noti--num {
+  background-color: tomato;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.noti--dot {
+  background-color: tomato;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+}
+
+.photo--lg {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.photo--md {
+  width: 70px;
+  height: 70px;
+  border-radius: 27px;
+}
+
+.photo--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.photo--icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.photo--xl {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.photo--xs {
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.font--black {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.font--dim {
+  color: dimgray;
+}
+
+.font--dark {
+  color: darkgrey;
+}
+
+.font--light {
+  color: lightgray;
+}
+
+.font--normal {
+  font-weight: normal;
+}
+
+.font--bold {
+  font-weight: bold;
+}

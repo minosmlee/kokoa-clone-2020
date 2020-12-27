@@ -1,0 +1,41 @@
+.screen-icons {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.screen-icons__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.screen-icons__row:first-child {
+  margin-bottom: 30px;
+}
+
+.screen-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 16%;
+  position: relative;
+}
+
+.screen-icons__icon i {
+  margin-bottom: 8px;
+}
+
+.screen-icons__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  height: 35px;
+}
+
+.screen-icons__noti {
+  position: absolute;
+  right: 10px;
+  top: -10px;
+}

@@ -11,3 +11,20 @@
   margin: 0px 5px;
   color: darkgray;
 }
+
+.channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: var(--screen-main-border);
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.channel-header__title {
+  font-size: 14px;
+}
+
+.channel-header i {
+  color: lightgrey;
+}

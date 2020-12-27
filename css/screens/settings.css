@@ -1,0 +1,27 @@
+.settings-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--screen-main-border);
+  padding: 30px 0px;
+}
+
+.settings-item__column:first-child {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+}
+
+.settings-item__column:last-child {
+  font-size: 18px;
+}
+
+.settings-item__column:first-child i {
+  margin-right: 20px;
+  width: 25px;
+  text-align: center;
+}
+
+.settings-item:last-child {
+  border-bottom: 0;
+}

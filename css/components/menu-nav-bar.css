@@ -24,29 +24,24 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
-.menu-nav__noti-num,
-.menu-nav__noti-dot {
-  background-color: tomato;
-  border-radius: 50%;
+.menu-nav__chat__noti,
+.menu-nav__more__noti {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
 }
 
-.menu-nav__noti-num {
-  width: 20px;
-  height: 20px;
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
+.menu-nav__chat__noti {
   left: 20px;
   bottom: 20px;
 }
 
-.menu-nav__noti-dot {
-  width: 7px;
-  height: 7px;
+.menu-nav__more__noti {
   left: 30px;
   bottom: 25px;
+}
+
+.bottom-reserved-area {
+  height: 72px;
 }
